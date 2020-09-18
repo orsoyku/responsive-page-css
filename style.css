@@ -26,7 +26,8 @@
         
         img {
             width: 100%;
-            height: auto;
+            height: 30rem;
+            object-fit: cover;
         }
         
         header p {
@@ -131,11 +132,28 @@
             padding: 2rem;
         }
         
+        .content {
+            padding: 3rem;
+        }
+        
         .card {
             display: flex;
             flex-wrap: wrap;
-            align-items: stretch;
             justify-content: center;
+            flex: 30%
+        }
+        
+        .box {
+            padding: 3rem;
+            ;
+        }
+        
+        .box:first-child {
+            background-color: #0f3460;
+        }
+        
+        .box:nth-child(2) {
+            background-color: #e94560;
         }
         
         .footer {
