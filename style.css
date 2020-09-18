@@ -1,130 +1,151 @@
-                        * {
-                            padding: 0;
-                            margin: 0;
-                            box-sizing: border-box;
-                        }
-                        
-                        body {
-                            font-family: 'Open Sans', sans-serif;
-                            font-family: 'Roboto Slab', serif;
-                            line-height: 1.5;
-                            text-align: center;
-                            font-size: 1.9rem;
-                            background-color: #1b1b2f;
-                            color: whitesmoke
-                        }
-                        
-                        html {
-                            font-size: 10px;
-                            color: #fbdcc4;
-                        }
-                        
-                        a {
-                            text-decoration: none;
-                            color: whitesmoke
-                        }
-                        
-                        img {
-                            width: 100%;
-                            height: auto;
-                        }
-                        
-                        header p {
-                            padding: 1.5rem;
-                            margin-bottom: 3rem;
-                        }
-                        
-                        header {
-                            height: 45rem;
-                        }
-                        
-                        .bg-image {
-                            background-image: url("https://images.unsplash.com/photo-1544237526-cae15a57ed1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2055&q=80");
-                            height: 45rem;
-                            background-size: cover;
-                            background-position: center;
-                            width: 100%;
-                            opacity: 0.4;
-                            position: absolute;
-                            z-index: -1;
-                        }
-                        
-                        header h1 {
-                            padding-top: 16rem
-                        }
-                        
-                        .btn {
-                            background: #1b1b2f;
-                            color: whitesmoke;
-                            border: 1px solid whitesmoke;
-                            padding: 1.6rem 3.2rem;
-                            margin: .5rem 0;
-                            font-size: 1.6rem;
-                            transition: all 0.3s;
-                        }
-                        
-                        .btn:hover {
-                            color: #1b1b2f;
-                            background: whitesmoke;
-                            border: 1px solid #1b1b2f;
-                            padding: 1.6rem 3.2rem;
-                            margin: .5rem 0;
-                            font-size: 1.6rem;
-                        }
-                        
-                        main p {
-                            padding: 1.5rem;
-                        }
-                        
-                        main {
-                            color: #1b1b2f;
-                            height: 20rem;
-                        }
-                        
-                        #section-a {
-                            padding: 3.2rem 0;
-                            background-color: #1a1a2e;
-                            color: whitesmoke;
-                        }
-                        
-                        #section-b {
-                            padding: 3.2rem 0;
-                        }
-                        
-                        #section-c {
-                            background: whitesmoke;
-                            color: #1a1a2e;
-                            padding: 5rem;
-                        }
-                        
-                        #section-d .box {
-                            color: whitesmoke;
-                            padding: 5rem;
-                        }
-                        
-                        #section-d .box:first-child {
-                            color: whitesmoke;
-                            padding: 5rem;
-                            background-color: #e94560;
-                        }
-                        
-                        #section-d .box:nth-child(2) {
-                            color: whitesmoke;
-                            padding: 5rem;
-                            background-color: #0f3460;
-                        }
-                        
-                        ul li {
-                            list-style: none;
-                            background: whitesmoke;
-                            color: #1a1a2e;
-                            margin-bottom: 2rem;
-                        }
-                        
-                        .col-content {
-                            padding: 2rem;
-                        }
-                        
-                        .footer {
-                            padding: 5rem;
-                        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto Slab', serif;
+            line-height: 1.5;
+            text-align: center;
+            font-size: 1.9rem;
+            background-color: #1b1b2f;
+            color: whitesmoke
+        }
+        
+        html {
+            font-size: 10px;
+            color: #fbdcc4;
+        }
+        
+        a {
+            text-decoration: none;
+            color: whitesmoke
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
+        header p {
+            padding: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        
+        header {
+            height: 45rem;
+        }
+        
+        .bg-image {
+            background-image: url("https://images.unsplash.com/photo-1544237526-cae15a57ed1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2055&q=80");
+            height: 45rem;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            opacity: 0.4;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        header h1 {
+            padding-top: 16rem
+        }
+        
+        .btn {
+            background: #1b1b2f;
+            color: whitesmoke;
+            border: 1px solid whitesmoke;
+            padding: 1.6rem 3.2rem;
+            margin: .5rem 0;
+            font-size: 1.6rem;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            color: #1b1b2f;
+            background: whitesmoke;
+            border: 1px solid #1b1b2f;
+            padding: 1.6rem 3.2rem;
+            margin: .5rem 0;
+            font-size: 1.6rem;
+        }
+        
+        main p {
+            padding: 1.5rem;
+        }
+        
+        main {
+            color: #1b1b2f;
+            height: 20rem;
+        }
+        
+        #section-a {
+            padding: 3.2rem 0;
+            background-color: #1a1a2e;
+            color: whitesmoke;
+        }
+        
+        #section-b {
+            padding: 3.2rem 0;
+        }
+        
+        #section-c {
+            background: whitesmoke;
+            color: #1a1a2e;
+            padding: 5rem;
+        }
+        
+        #section-d .box {
+            color: whitesmoke;
+            padding: 5rem;
+        }
+        
+        #section-d .box:first-child {
+            color: whitesmoke;
+            padding: 5rem;
+            background-color: #e94560;
+        }
+        
+        #section-d .box:nth-child(2) {
+            color: whitesmoke;
+            padding: 5rem;
+            background-color: #0f3460;
+        }
+        
+        ul li {
+            list-style: none;
+            background: whitesmoke;
+            color: #1a1a2e;
+            margin-bottom: 2rem;
+        }
+        
+        .text {
+            background: whitesmoke;
+            color: #1a1a2e;
+            padding: 2rem;
+        }
+        
+        .col-content {
+            padding: 2rem;
+        }
+        
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            justify-content: center;
+        }
+        
+        .footer {
+            padding: 5rem;
+        }
+        
+        @media(min-width:800px) {
+            .card {
+                width: 28%;
+                margin: 1%;
+                display: inline-block;
+            }
+        }
